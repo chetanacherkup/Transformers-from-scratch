@@ -1,0 +1,15 @@
+This is an implementation of transformers from scratch.
+This is the tutorial I followed - https://youtu.be/ISNdQcPhsts?si=SIxC9sUAhkm6OleS
+
+My notes : https://wild-day-fc6.notion.site/Attention-is-all-you-need-14799eabd02e80aabcace07611076509
+
+
+
+model.ipynb contains the architecture of the transformers.
+
+data_set.ipynb does the datset loading and splitting of data , it includes tokenization and preprocessing.
+it can handle adding EOS (End of Sequence), SOS (Start of Sequence), and PAD (Padding) tokens.
+
+train.ipynb is used for training
+
+Small_examples file contains basic examples that help to understand tensors, embedding vectors, dimensions and how token works etc.
